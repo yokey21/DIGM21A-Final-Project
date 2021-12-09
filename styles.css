@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aquamarine;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: gray;
+}
+
+img {
+    
+}
+
+.splitView {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px 100px;
+}
+
+.background {
+
+}
