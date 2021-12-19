@@ -1,15 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 
 * {
     box-sizing: border-box;
 }
 
+body {
+    margin: 0px;
+}
 
 nav {
     display: flex;
     justify-content: space-evenly;
     background-color: aquamarine;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 div {
@@ -18,7 +21,7 @@ div {
 
 p {
     font-size: 20px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 a {
@@ -37,7 +40,19 @@ a:hover {
 }
 
 img {
-    padding: 0px 0px 0px 0px;
+    margin: 1vh;
+    box-shadow: 2px 2px 4px black;
+}
+
+.galleryImg {
+    width: 28vw;
+}
+
+div.gallery {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    flex-flow: row wrap;
 }
 
 .splitView {
@@ -49,11 +64,36 @@ img {
 }
 
 .paddedText {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     padding: 0px 0px 0px 50px;
 }
 
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Source Sans Pro", sans-serif;
+}
 
-.background {
+/* Navbar links */
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
 
+#navbar a:hover {
+    color: yellow;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
