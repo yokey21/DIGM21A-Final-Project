@@ -9,6 +9,11 @@ nav {
     display: flex;
     justify-content: space-evenly;
     background-color: aquamarine;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+div {
+    padding: 0px 0px 0px 0px;
 }
 
 p {
@@ -32,7 +37,7 @@ a:hover {
 }
 
 img {
-    
+    padding: 0px 0px 0px 0px;
 }
 
 .splitView {
@@ -40,8 +45,14 @@ img {
     align-items: center;
     justify-content: center;
 
-    padding: 10px 100px;
+    padding: 10px 150px;
 }
+
+.paddedText {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0px 0px 0px 50px;
+}
+
 
 .background {
 
